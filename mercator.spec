@@ -1,5 +1,5 @@
 Summary:	A WorldForge terrain library
-Summary(pl):	Biblioteka teren體 WorldForge
+Summary(pl.UTF-8):   Biblioteka teren贸w WorldForge
 Name:		mercator
 Version:	0.2.4
 Release:	0.1
@@ -14,12 +14,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Mercator is designed to handle terrain data.
 
-%description -l pl
-Mercator to biblioteka do obs硊gi danych teren體.
+%description -l pl.UTF-8
+Mercator to biblioteka do obs艂ugi danych teren贸w.
 
 %package devel
 Summary:	Header files for WorldForge terrain library
-Summary(pl):	Pliki nag丑wkowe biblioteki teren體 WorldForge
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe biblioteki teren贸w WorldForge
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	wfmath-devel >= 0.3.2
@@ -27,20 +27,20 @@ Requires:	wfmath-devel >= 0.3.2
 %description devel
 Header files for WorldForge terrain library.
 
-%description devel -l pl
-Pliki nag丑wkowe biblioteki teren體 WorldForge.
+%description devel -l pl.UTF-8
+Pliki nag艂贸wkowe biblioteki teren贸w WorldForge.
 
 %package static
 Summary:	Static WorldForge terrain library
-Summary(pl):	Statyczna biblioteka teren體 WorldForge
+Summary(pl.UTF-8):   Statyczna biblioteka teren贸w WorldForge
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static WorldForge terrain library.
 
-%description static -l pl
-Statyczna biblioteka teren體 WorldForge.
+%description static -l pl.UTF-8
+Statyczna biblioteka teren贸w WorldForge.
 
 %prep
 %setup -q
