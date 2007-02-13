@@ -1,5 +1,5 @@
 Summary:	A WorldForge terrain library
-Summary(pl.UTF-8):   Biblioteka terenów WorldForge
+Summary(pl.UTF-8):	Biblioteka terenów WorldForge
 Name:		mercator
 Version:	0.2.4
 Release:	0.1
@@ -19,7 +19,7 @@ Mercator to biblioteka do obsługi danych terenów.
 
 %package devel
 Summary:	Header files for WorldForge terrain library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki terenów WorldForge
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki terenów WorldForge
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	wfmath-devel >= 0.3.2
@@ -32,7 +32,7 @@ Pliki nagłówkowe biblioteki terenów WorldForge.
 
 %package static
 Summary:	Static WorldForge terrain library
-Summary(pl.UTF-8):   Statyczna biblioteka terenów WorldForge
+Summary(pl.UTF-8):	Statyczna biblioteka terenów WorldForge
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
